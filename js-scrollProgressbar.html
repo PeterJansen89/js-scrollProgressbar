@@ -1,3 +1,15 @@
 <!-- /////     SCROLL PROGRESSBAR     ///// -->
 
 <progress value="0"></progress>
+
+
+
+<style>
+
+// PROGRESSBAR
+progress {position: fixed; left: 0; top: 0; z-index: 999999999; width: 100%; height: 3px; -webkit-appearance: none; -moz-appearance: none; appearance: none; border: none; background-color: @blue; color: @blue; transform: translateZ(0);}
+progress::-webkit-progress-bar {background-color: black;}
+progress::-webkit-progress-value {background-color: @blue;}
+progress::-moz-progress-bar {background-color: @blue;}
+
+</style>
